@@ -71,8 +71,7 @@ class proxy():
             r.delete(value)
             self.random()
 
-if __name__ == "__main__":
-    proxy = proxy()
-    ip = proxy.get_proxy_random()
-    print(ip)
+proxy = proxy()
+# ip = proxy.get_proxy_random()
+# print(ip)
 
