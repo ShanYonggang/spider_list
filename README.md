@@ -7,3 +7,4 @@
 
 #### IT桔子
 - [IT桔子死亡公司数据库获取](https://www.shanyonggang.cn/article_detail/67/ "IT桔子死亡公司数据库获取")
+- [用python数据分析来解密新经济(IT桔子)死亡公司的内幕](https://www.shanyonggang.cn/article_detail/69/ "用python数据分析来解密新经济(IT桔子)死亡公司的内幕")
