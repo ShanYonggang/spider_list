@@ -12,7 +12,7 @@ try:
     driver.get(url)
     time.sleep(2)
     print(driver.current_url)
-    # 暂时获取24页(5年的信息)
+    # 暂时获取60页(5年的信息)
     for i in range(60):
         weathter_lists = driver.find_elements_by_xpath('//table/tbody/tr')
         for weather in weathter_lists:
