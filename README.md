@@ -16,6 +16,6 @@
 - [PPT模板自动下载](https://github.com/ShanYonggang/spider_list/blob/master/ppt_download_spider/ppt_download_spider.py "PPT模板自动下载")
 
 #### 使用Scrapy进行汽车之家信息爬虫
-- [使用Scrapy进行汽车之家信息爬虫](https://github.com/ShanYonggang/spider_list/blob/master/ppt_download_spider/ppt_download_spider.py "使用Scrapy进行汽车之家信息爬虫")
+- [使用Scrapy进行汽车之家信息爬虫](https://github.com/ShanYonggang/spider_list/tree/master/car_home "使用Scrapy进行汽车之家信息爬虫")
 
 
