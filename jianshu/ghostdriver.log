@@ -1,0 +1,264 @@
+[INFO  - 2019-10-16T06:55:41.289Z] GhostDriver - Main - running on port 50831
+[INFO  - 2019-10-16T06:55:41.398Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-10-16T06:55:41.398Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.customHeaders:  - {}
+[INFO  - 2019-10-16T06:55:41.398Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-10-16T06:55:41.398Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f7b316e0-efe1-11e9-8204-558610a45b39
+[ERROR - 2019-10-16T06:55:53.212Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:55:53.212Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:55:55.207Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:55:55.207Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:55:57.042Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:55:57.042Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:55:59.031Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:55:59.032Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:01.124Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:01.124Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:03.133Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:03.134Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:04.906Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:04.906Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:06.585Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:06.585Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:09.043Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:09.043Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:12.430Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:12.430Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:14.119Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:14.119Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:15.780Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:15.780Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:17.465Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:17.465Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:19.819Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:19.820Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:22.468Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:22.468Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:24.191Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:24.191Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:26.351Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:26.352Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:28.419Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:28.419Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:30.058Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:30.058Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:32.359Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:32.359Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:34.092Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:34.092Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:36.031Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:36.031Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:37.748Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:37.748Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:39.790Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:39.790Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:41.954Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:41.954Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:44.333Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:44.333Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:46.202Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:46.202Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:47.870Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:47.870Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:49.511Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:49.511Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:51.597Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:51.597Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:53.240Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:53.240Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:55.317Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:55.317Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:57.056Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:57.056Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:58.943Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:56:58.944Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:57:00.550Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:57:00.550Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:57:02.730Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:57:02.731Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:57:04.680Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.getEntriesByType("navigation")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-10-16T06:57:04.680Z] Session [f7b316e0-efe1-11e9-8204-558610a45b39] - page.onError - stack:
+  (anonymous function) (https://cdn2.jianshu.io/shakespeare/_next/static/runtime/main-d69502b33991d2df6c95.js:1)
+
+  phantomjs://platform/console++.js:263 in error
