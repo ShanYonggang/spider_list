@@ -11,3 +11,7 @@
 
 #### 天气
 - [使用selenium获取北京地区2015年至2019年天气情况](https://github.com/ShanYonggang/spider_list/blob/master/weather_spider_analyze/weather_spider.py "使用selenium获取北京地区2015年至2019年天气情况")
+
+#### PPT模板自动下载
+- [PPT模板自动下载](https://github.com/ShanYonggang/spider_list/blob/master/ppt_download_spider/ppt_download_spider.py "PPT模板自动下载")
+
