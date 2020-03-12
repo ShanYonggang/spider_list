@@ -10,7 +10,10 @@
 - [个人爬虫代理池创建](https://www.shanyonggang.cn/article_detail/66/ "个人爬虫代理池创建")
 
 #### IT桔子
-- [IT桔子死亡公司数据库获取](https://www.shanyonggang.cn/article_detail/67/ "IT桔子死亡公司数据库获取")
+- [IT桔子死亡公司数据库获取](https://www.shanyonggang.cn/article_detail/85/ "IT桔子死亡公司数据库获取")
+
+#### 贝壳找房
+- [python爬取贝壳找房北京二手房信息数据](https://www.shanyonggang.cn/article_detail/67/ "IT桔子死亡公司数据库获取")
 - [用python数据分析来解密新经济(IT桔子)死亡公司的内幕](https://www.shanyonggang.cn/article_detail/69/ "用python数据分析来解密新经济(IT桔子)死亡公司的内幕")
 
 #### 天气
