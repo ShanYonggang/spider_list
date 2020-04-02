@@ -1,4 +1,4 @@
-## python网络爬虫实战合集
+## python网络爬虫实战合集(部分爬虫数据附加数据分析)
 
 #### PPT模板
 - [PPT模板自动下载](https://github.com/ShanYonggang/spider_list/blob/master/ppt_download_spider/ppt_download_spider.py "PPT模板自动下载")
