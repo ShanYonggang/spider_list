@@ -12,8 +12,8 @@ import pymysql
 class VehicleHomePipeline:
     def __init__(self):
         self.connect = pymysql.connect(
-                                    host='123.57.40.204', user='root',
-                                    password='syg7810354.', db='Spider',
+                                    host='localhost', user='root',
+                                    password='123456', db='Spider',
                                     port=3306)
         self.cursor = self.connect.cursor()
 
