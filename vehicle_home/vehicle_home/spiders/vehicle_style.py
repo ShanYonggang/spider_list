@@ -27,23 +27,28 @@ class VehicleStyleSpider(scrapy.Spider):
                 yield response.follow(url, self.parse_vehicle_detail)
 
     def parse_vehicle_detail(self, response):
+        item = VehicleHomeItem()
         # 每个用户评价的口碑详细信息
         kou_bei_detail_url = response.xpath("//div[@class='allcont border-b-solid']\
                                         //a/@href").getall()
+        # 获取品牌及其名称
+        vehicle_brand = response.xpath("//div[@class='subnav']//div[@class='subnav-title-name']/a/text()").get()
+        item["vehicle_brand"] = vehicle_brand
+        # yield items
         # 下一页链接
         kou_bei_next_url = response.xpath("//div[@class='page']//a[@class=\
                                         'page-item-next']/@href").get()
-        # yield {
-        #     "kou_bei_detail_url": kou_bei_detail_url,
-        # }
         if kou_bei_detail_url is not None:
             for url in kou_bei_detail_url:
-                yield response.follow(url, self.parse_vehicle_detail_infos)
+                # print(url)
+                url = "https:" + url
+                yield scrapy.Request(url=url, callback=self.parse_vehicle_detail_infos, meta={'item': item})
+                # yield response.follow(url, self.parse_vehicle_detail_infos)
         if kou_bei_next_url is not None:
             yield response.follow(kou_bei_next_url, self.parse_vehicle_detail)
 
     def parse_vehicle_detail_infos(self, response):
-        item = VehicleHomeItem()
+        item = response.meta['item']
         # 获取用户昵称
         usercont = response.xpath("//div[@class='mouth']//dl[@class='user-cont']\
                                     //div[@class='user-name']//a/text()").get()
@@ -52,7 +57,7 @@ class VehicleStyleSpider(scrapy.Spider):
                                         text()").getall()
         # 购车情况
         choose_dl = response.xpath("//div[@class='choose-con']//dl")
-        info_length = len(choose_dl)
+        # info_length = len(choose_dl)
         # 购车地点
         vehicle_by_location = choose_dl[1].xpath("./dd//text()").get()
         # 购车所属品牌
@@ -107,6 +112,7 @@ class VehicleStyleSpider(scrapy.Spider):
         item["visit_count"] = visit_count
         item["helpful_count"] = helpful_count
         item["comment_count"] = comment_count
+        yield item
         # yield {
         #     "info_length": info_length,
         #     "usercont": usercont,
@@ -125,4 +131,4 @@ class VehicleStyleSpider(scrapy.Spider):
         #     "helpful_count": helpful_count,
         #     "comment_count": comment_count,
         # }
-        return item
+

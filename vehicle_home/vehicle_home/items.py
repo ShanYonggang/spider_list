@@ -25,3 +25,4 @@ class VehicleHomeItem(scrapy.Item):
     visit_count = scrapy.Field()
     helpful_count = scrapy.Field()
     comment_count = scrapy.Field()
+    vehicle_brand = scrapy.Field()
