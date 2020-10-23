@@ -25,6 +25,8 @@
 
 - [使用Scrapy进行简书信息爬虫](https://github.com/ShanYonggang/spider_list/tree/master/jianshu "使用Scrapy进行简书信息爬虫")
 
+- [使用Scrapy进行汽车之家口碑频道爬虫](https://github.com/ShanYonggang/spider_list/tree/master/vehicle_home "使用Scrapy进行汽车之家口碑频道爬虫")
+
 
 
 
