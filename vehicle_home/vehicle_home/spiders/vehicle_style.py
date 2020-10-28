@@ -113,22 +113,3 @@ class VehicleStyleSpider(scrapy.Spider):
         item["helpful_count"] = helpful_count
         item["comment_count"] = comment_count
         yield item
-        # yield {
-        #     "info_length": info_length,
-        #     "usercont": usercont,
-        #     "vehicle_style": vehicle_style,
-        #     "vehicle_by_location": vehicle_by_location,
-        #     "vehicle_seller": vehicle_seller,
-        #     "vehcle_seller_date": vehcle_seller_date,
-        #     "vehicle_seller_money": vehicle_seller_money,
-        #     "vehicle_status": vehicle_status,
-        #     "vehicle_evaluate": vehicle_evaluate,
-        #     "vehicle_bu_aim": vehicle_bu_aim,
-        #     "evalute_date": evalute_date,
-        #     "evalute_title": evalute_title,
-        #     # "evalute_infos": evalute_infos,
-        #     "visit_count": visit_count,
-        #     "helpful_count": helpful_count,
-        #     "comment_count": comment_count,
-        # }
-
