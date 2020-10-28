@@ -1,6 +1,7 @@
 import scrapy
 from vehicle_home.items import VehicleHomeItem
 import re
+import json
 
 
 class VehicleStyleSpider(scrapy.Spider):
@@ -94,13 +95,10 @@ class VehicleStyleSpider(scrapy.Spider):
         # 评论数
         comment_count = response.xpath("//div[@class='mouth-remak']//div[@class=\
                         'help']/a//span/text()").get()
-
         # item["info_length"] = info_length
         item["usercont"] = usercont
         item["vehicle_style"] = vehicle_style
         item["vehicle_by_location"] = re.sub("[A-Za-z0-9\!\%\[\]\,\。\(\)\}\{\_\=\;&''+\<\>//$.::\"-#：\- \r\n]", "", "".join(vehicle_by_location))
-        # 经销商信息爬取时候获取不到数据
-        item["vehicle_seller"] = vehicle_seller
         item["vehcle_seller_date"] = vehcle_seller_date
         item["vehicle_seller_money"] = vehicle_seller_money
         item["vehicle_status"] = vehicle_status
@@ -112,4 +110,23 @@ class VehicleStyleSpider(scrapy.Spider):
         item["visit_count"] = visit_count
         item["helpful_count"] = helpful_count
         item["comment_count"] = comment_count
+        # 获取经销商的信息（新增的代码）
+        if vehicle_seller is not None:
+            print(response.url)
+            seller_id = choose_dl[2].xpath(".//a/@data-val").get()
+            data_evalid = choose_dl[2].xpath(".//a/@data-evalid").get()
+            seller_api_url = "https://k.autohome.com.cn/frontapi/GetDealerInfor?dearerandspecIdlist=" + seller_id + "," + data_evalid +"|"
+            print(seller_id, data_evalid)
+            print(seller_api_url)
+            print("="*100)
+            yield scrapy.Request(url=seller_api_url, callback=self.parse_vehicle_seller, meta={'item': item})
+        else:
+            item["vehicle_seller"] = vehicle_seller
+            yield item
+
+    # 获取经销商信息
+    def parse_vehicle_seller(self, response):
+        item = response.meta['item']
+        seller_name = json.loads(response.text)["result"]["List"][0]["CompanySimple"]
+        item["vehicle_seller"] = seller_name
         yield item
