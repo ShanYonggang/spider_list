@@ -27,6 +27,9 @@
 - [使用Scrapy进行汽车之家信息爬虫](https://github.com/ShanYonggang/spider_list/tree/master/car_home "使用Scrapy进行汽车之家信息爬虫")
 - [使用Scrapy进行简书信息爬虫](https://github.com/ShanYonggang/spider_list/tree/master/jianshu "使用Scrapy进行简书信息爬虫")
 
+#### 股票相关数据抓取
+- [使用Python抓取A股上市公司基本信息](https://github.com/ShanYonggang/spider_list/blob/master/stock/A_stock_company.py "使用Python抓取A股上市公司基本信息")
+- [A股上市公司的主力控盘情况及资金动向数据抓取](https://github.com/ShanYonggang/spider_list/blob/master/stock/stock_spider_new.py "A股上市公司的主力控盘情况及资金动向数据抓取")
 
 
 
